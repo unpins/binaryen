@@ -13,6 +13,7 @@ for Linux, macOS, and Windows.
   `wasm2js`, `wasm2c`, `wasm-ctor-eval`, `wasm-emscripten-finalize`,
   `wasm-merge`, `wasm-metadce`, `wasm-reduce`, `wasm-shell`, `wasm-split`,
   `wasm-fuzz-types` and `wasm-fuzz-lattices`.
-- Upstream's test suite runs during the build on the platforms that can execute
-  what they built. Binaryen ships no man pages, so none are embedded; each
+- Upstream's tests, except the WebAssembly spec suite and the `wasm2js` suite,
+  run during the build on the platforms that can execute what they built.
+  Binaryen ships no man pages, so none are embedded; each
   program documents itself under `--help`.

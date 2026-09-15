@@ -88,5 +88,6 @@ The [Releases](https://github.com/unpins/binaryen/releases) page has standalone 
   program documents its own options under `--help`.
 - **Windows** is built with mingw: Binaryen is portable C++20 with no external
   dependency, so it cross-compiles as-is.
-- Upstream's test suite runs during the build on every platform whose binaries
-  the build machine can execute.
+- Upstream's tests run during the build on every platform whose binaries the
+  build machine can execute: all of them except the WebAssembly spec suite and
+  the `wasm2js` suite, which together take most of an hour.
