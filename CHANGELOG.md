@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [132-1] - 2026-09-26
+
 Initial release — Binaryen 132 as a single self-contained binary, built natively
 for Linux, macOS, and Windows.
 
